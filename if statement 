@@ -1,0 +1,54 @@
+score = 75
+
+if score >= 90:
+  print("Grade: A")
+elif score >= 80:
+  print("Grade: B")
+elif score >= 70:
+  print("Grade: C")
+elif score >= 60:    #elif statement 
+  print("Grade: D")
+
+m = 200
+j = 33
+if j > m:
+  print("j is greater than m")
+else:
+  print("j is not greater than m")  #else statement 
+
+age = 20
+if age >= 18:
+  print("You are an adult")
+  print("You can vote")
+  print("You have full legal rights")     #if statement 
+
+  age = 25
+has_license = True
+
+if age >= 18:
+  if has_license:
+    print("You can drive")
+  else:
+    print("You need a license")
+else:
+  print("You are too young to drive")  #nested if 
+
+  score = 85
+
+if score > 90:
+  pass 
+print("Score processed") #pass statement 
+
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")   #or operator
+
+  age = 25
+is_student = False
+has_discount_code = True
+
+if (age < 18 or age > 65) and not is_student or has_discount_code:
+  print("Discount applies!")  #logical operator
+  
